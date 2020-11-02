@@ -1,0 +1,230 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HandleMsg",
+  "anyOf": [
+    {
+      "type": "object",
+      "required": [
+        "add_guardian"
+      ],
+      "properties": {
+        "add_guardian": {
+          "type": "object",
+          "required": [
+            "guardian"
+          ],
+          "properties": {
+            "guardian": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "remove_guardian"
+      ],
+      "properties": {
+        "remove_guardian": {
+          "type": "object",
+          "required": [
+            "guardian"
+          ],
+          "properties": {
+            "guardian": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "add_guardian_confirm"
+      ],
+      "properties": {
+        "add_guardian_confirm": {
+          "type": "object",
+          "required": [
+            "guardian"
+          ],
+          "properties": {
+            "guardian": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "add_guardian_confirm_cancel"
+      ],
+      "properties": {
+        "add_guardian_confirm_cancel": {
+          "type": "object",
+          "required": [
+            "guardian"
+          ],
+          "properties": {
+            "guardian": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "execute_recovery"
+      ],
+      "properties": {
+        "execute_recovery": {
+          "type": "object",
+          "required": [
+            "guardian",
+            "new_owner"
+          ],
+          "properties": {
+            "guardian": {
+              "type": "string"
+            },
+            "new_owner": {
+              "$ref": "#/definitions/HumanAddr"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "cancel_recovery"
+      ],
+      "properties": {
+        "cancel_recovery": {
+          "type": "object",
+          "required": [
+            "guardian"
+          ],
+          "properties": {
+            "guardian": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "guardian_approve_request"
+      ],
+      "properties": {
+        "guardian_approve_request": {
+          "type": "object",
+          "required": [
+            "guardian"
+          ],
+          "properties": {
+            "guardian": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "send_tokens"
+      ],
+      "properties": {
+        "send_tokens": {
+          "type": "object",
+          "required": [
+            "amount",
+            "to_address"
+          ],
+          "properties": {
+            "amount": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Coin"
+              }
+            },
+            "to_address": {
+              "$ref": "#/definitions/HumanAddr"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "add_family_member"
+      ],
+      "properties": {
+        "add_family_member": {
+          "type": "object",
+          "required": [
+            "family_member"
+          ],
+          "properties": {
+            "family_member": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "remove_family_member"
+      ],
+      "properties": {
+        "remove_family_member": {
+          "type": "object",
+          "required": [
+            "family_member"
+          ],
+          "properties": {
+            "family_member": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "definitions": {
+    "Coin": {
+      "type": "object",
+      "required": [
+        "amount",
+        "denom"
+      ],
+      "properties": {
+        "amount": {
+          "$ref": "#/definitions/Uint128"
+        },
+        "denom": {
+          "type": "string"
+        }
+      }
+    },
+    "HumanAddr": {
+      "type": "string"
+    },
+    "Uint128": {
+      "type": "string"
+    }
+  }
+}
