@@ -1,0 +1,10 @@
+/Users/ernestpascual/Downloads/projects/bigmochi/sample/target/debug/deps/cosmwasm_schema-0b76019eb20551c8.rmeta: /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/lib.rs /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/casing.rs /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/export.rs /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/remove.rs
+
+/Users/ernestpascual/Downloads/projects/bigmochi/sample/target/debug/deps/libcosmwasm_schema-0b76019eb20551c8.rlib: /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/lib.rs /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/casing.rs /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/export.rs /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/remove.rs
+
+/Users/ernestpascual/Downloads/projects/bigmochi/sample/target/debug/deps/cosmwasm_schema-0b76019eb20551c8.d: /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/lib.rs /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/casing.rs /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/export.rs /Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/remove.rs
+
+/Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/lib.rs:
+/Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/casing.rs:
+/Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/export.rs:
+/Users/ernestpascual/.cargo/registry/src/github.com-1ecc6299db9ec823/cosmwasm-schema-0.10.1/src/remove.rs:

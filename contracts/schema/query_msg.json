@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QueryMsg",
+  "anyOf": [
+    {
+      "type": "object",
+      "required": [
+        "get_owner"
+      ],
+      "properties": {
+        "get_owner": {
+          "type": "object"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_recovery_status"
+      ],
+      "properties": {
+        "get_recovery_status": {
+          "type": "object"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_guardians"
+      ],
+      "properties": {
+        "get_guardians": {
+          "type": "object"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_signers"
+      ],
+      "properties": {
+        "get_signers": {
+          "type": "object"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_pending_guardians"
+      ],
+      "properties": {
+        "get_pending_guardians": {
+          "type": "object"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "get_family_members"
+      ],
+      "properties": {
+        "get_family_members": {
+          "type": "object"
+        }
+      }
+    }
+  ]
+}
